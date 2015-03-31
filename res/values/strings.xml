@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThaiSatayBBQ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="title_activity_offers_coupons">OffersCoupons</string>
+    <string name="title_activity_my_favourite">MyFavourite</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_grid_menu">Special Combination</string>
+    <string name="title_activity_menu_detail">MenuDetail</string>
+    <string name="title_activity_grid_detail">GridDetail</string>
+    <string name="res_phone_no">ThaiSatayBBQ</string>
+
+    <!-- Sub Menu Name -->
+    <string name="special_combi">Special Combination</string>
+    <string name="shrimp_fried_rice">Shrimp Fried Rice Combination</string>
+    <string name="appetizer">Appetizer</string>
+    <string name="salads_soups">Salads and Spicy Salads</string>
+    <string name="soups">Soups</string>
+    <string name="chk_pork_beef">Chicken Pork or Beef Dish</string>
+    <string name="shrimp_seafood">Shrimp and Seafood</string>
+    <string name="curry">Curry</string>
+    <string name="rice">Rice</string>
+    <string name="beverages">Beverages</string>
+
+    <!-- menus for Spc Combination fried rice -->
+    <string name="spc_combi_rice_dish1">SPECIAL #1</string>
+    <string name="spc_combi_rice_dish2">SPECIAL #2</string>
+    <string name="spc_combi_rice_dish3">SPECIAL #3</string>
+    <string name="spc_combi_rice_dish4">SPECIAL #4</string>
+    <string name="spc_combi_rice_dish5">4 pieces BBQ beef ribs</string>
+    <string name="spc_combi_rice_dish6">8 pieces BBQ beef ribs</string>
+
+    <!-- menus for shirmp fried rice -->
+    <string name="shrimp_fried_rice_dish1">F#1</string>
+    <string name="shrimp_fried_rice_dish2">F#2</string>
+    <string name="shrimp_fried_rice_dish3">F#3</string>
+    <string name="shrimp_fried_rice_dish4">F#4</string>
+    <string name="shrimp_fried_rice_dish5">F#5</string>
+    <string name="shrimp_fried_rice_dish6">F#6</string>
+
+    <!-- Menus for Appetizers -->
+    <string name="appetizer1">Egg Roll - 2</string>
+    <string name="appetizer2">Shrimp Chips</string>
+    <string name="appetizer3">Fried Wanton</string>
+    <string name="appetizer4">Shrimp Rolls - 4</string>
+    <string name="appetizer5">BBQ Chicken</string>
+    <string name="appetizer6">Crab Rangoon - 8</string>
+    <string name="appetizer7">Angel Wings</string>
+    <string name="appetizer8">Thai Toast</string>
+    <string name="appetizer9">Mee Krob</string>
+    <string name="appetizer10">Satay - 8</string>
+    <string name="appetizer11">Appetizer for two</string>
+    <string name="appetizer12">Salty Beef Jerky</string>
+
+    <!-- Menus for Salads -->
+    <string name="salads_soups1">Vegetable Salad</string>
+    <string name="salads_soups2">BBQ Chicken Salad</string>
+    <string name="salads_soups3">Papaya Salad</string>
+    <string name="salads_soups4">Spicy Beef Salad</string>
+    <string name="salads_soups5">Yum Woon Sen</string>
+    <string name="salads_soups6">Larb  </string>
+    <string name="salads_soups7">Pla Goong</string>
+    <string name="salads_soups8">Nam Sod</string>
+
+    <!-- Menus for  Soups -->
+    <string name="soups1">Chicken Rice Soup</string>
+    <string name="soups2">Noodle Soup</string>
+    <string name="soups3">Hot and Sour Vegatable Soup</string>
+    <string name="soups4">Tom Kha Kai</string>
+    <string name="soups5">Special Won Ton Soup</string>
+    <string name="soups6">Tom Yum Kai</string>
+    <string name="soups7">Tom Yum Goong</string>
+    <string name="soups8">Hot and Sour Seafood Soup</string>
+
+    <!-- Menus for Chicked Pork or Beef -->
+    <string name="chk_pork_beef1">Chop Suey</string>
+    <string name="chk_pork_beef2">Chow Mein</string>
+    <string name="chk_pork_beef3">Pad Thai</string>
+    <string name="chk_pork_beef4">Soy Sauce Noodles</string>
+    <string name="chk_pork_beef5">Rard Na</string>
+    <string name="chk_pork_beef6">Pad Kee Mow</string>
+    <string name="chk_pork_beef7">Spicy Chicken</string>
+    <string name="chk_pork_beef8">Spicy Pork or Beef</string>
+    <string name="chk_pork_beef9">Sweet and Sour</string>
+    <string name="chk_pork_beef10">Pineapple Chicken</string>
+    <string name="chk_pork_beef11">Beef or Chicken Broccoli</string>
+    <string name="chk_pork_beef12">Meat Garlic and Black Pepper</string>
+    <string name="chk_pork_beef13">Kung Pao Chicken</string>
+    <string name="chk_pork_beef14">Peapod Chicken</string>
+    <string name="chk_pork_beef15">Pad Ka Paow</string>
+    <string name="chk_pork_beef16">Pad Woon Sen</string>
+    <string name="chk_pork_beef17">Pad Prik King</string>
+    <string name="chk_pork_beef18">Cashew Chicken</string>
+    <string name="chk_pork_beef19">Almond Chicken</string>
+    <string name="chk_pork_beef20">Ginger Chicken</string>
+    <string name="chk_pork_beef21">Beef with Bell Peppers</string>
+
+    <!-- Menus for Shrimp and SeaFood -->
+    <string name="shrimp_seafood1">Shrimp Chow Mein</string>
+    <string name="shrimp_seafood2">Shrimp Pad Thai </string>
+    <string name="shrimp_seafood3">Shrimp Soy Sauce</string>
+    <string name="shrimp_seafood4">Rard Na Shrimp</string>
+    <string name="shrimp_seafood5">Shrimp with Broccoli</string>
+    <string name="shrimp_seafood6">Sweet and Sour Shrimp</string>
+    <string name="shrimp_seafood7">Bean Sprouts Shrimp</string>
+    <string name="shrimp_seafood8">Spicy Squid</string>
+    <string name="shrimp_seafood9">Spicy Shrimp</string>
+    <string name="shrimp_seafood10">Shrimp Garlic and Black Pepper</string>
+    <string name="shrimp_seafood11">Kung Pao Shrimp</string>
+    <string name="shrimp_seafood12">Pad Ka Paow Shrimp</string>
+    <string name="shrimp_seafood13">Pad Woon Sen Shrimp</string>
+    <string name="shrimp_seafood14">Pad Prik King Shrimp</string>
+    <string name="shrimp_seafood15">Cashew Shrimp</string>
+    <string name="shrimp_seafood16">Almond Shrimp</string>
+    <string name="shrimp_seafood17">Shrimp with Lobster Sauce</string>
+    <string name="shrimp_seafood18">Panang Shrimp</string>
+    <string name="shrimp_seafood19">Paradise Curry Shrimp</string>
+    <string name="shrimp_seafood20">Sweet and Sour Fish</string>
+
+    <!-- Menus for  Curry -->
+    <string name="curry1">Chinese Chicken Curry</string>
+    <string name="curry2">Thai Green Curry</string>
+    <string name="curry3">Massaman Beef</string>
+    <string name="curry4">Panang</string>
+    <string name="curry5">Paradise Pineapple Curry</string>
+
+    <!-- Menus for Rice -->
+    <string name="rice1">Sticky Rice</string>
+    <string name="rice2">Steamed Rice</string>
+    <string name="rice3">Plain Fried Rice</string>
+    <string name="rice4">Chicken or Beef Bowl</string>
+    <string name="rice5">Thai Fried Rice</string>
+    <string name="rice6">Pineapple Fried Rice</string>
+    <string name="rice7">Shrimp Fried Rice</string>
+    <string name="rice8">Combination Fried Rice</string>
+    <string name="rice9">Crab Fried Rice (Seasonal)</string>
+    <string name="rice10">Spicy Seafood Fried Rice</string>
+    <string name="rice11">4 Meat Sizzling</string>
+
+    <!-- Menus for  Beverages -->
+    <string name="beverages1">Thai Ice Tea</string>
+    <string name="beverages2">Thai Ice Coffee</string>
+    <string name="beverages3">Regular Ice Tea </string>
+    <string name="beverages4">Soda</string>
+    <string name="beverages5">Beer</string>
+    <string name="beverages6">Wine</string>
+
+    <!-- submenu 1 array -->
+    <string-array name="menu_1">
+        <item>@string/spc_combi_rice_dish1</item>
+        <item>@string/spc_combi_rice_dish2</item>
+        <item>@string/spc_combi_rice_dish3</item>
+        <item>@string/spc_combi_rice_dish4</item>
+        <item>@string/spc_combi_rice_dish5</item>
+        <item>@string/spc_combi_rice_dish6</item>
+    </string-array>
+
+    <!-- submenu 2 array -->
+    <string-array name="menu_2">
+        <item>@string/shrimp_fried_rice_dish1</item>
+        <item>@string/shrimp_fried_rice_dish2</item>
+        <item>@string/shrimp_fried_rice_dish3</item>
+        <item>@string/shrimp_fried_rice_dish4</item>
+        <item>@string/shrimp_fried_rice_dish5</item>
+        <item>@string/shrimp_fried_rice_dish6</item>
+    </string-array>
+
+    <!-- submenu 3 array -->
+    <string-array name="menu_3">
+        <item>@string/appetizer1</item>
+        <item>@string/appetizer2</item>
+        <item>@string/appetizer3</item>
+        <item>@string/appetizer4</item>
+        <item>@string/appetizer5</item>
+        <item>@string/appetizer6</item>
+        <item>@string/appetizer7</item>
+        <item>@string/appetizer8</item>
+        <item>@string/appetizer9</item>
+        <item>@string/appetizer10</item>
+        <item>@string/appetizer11</item>
+        <item>@string/appetizer12</item>
+    </string-array>
+
+    <!-- submenu 4 array -->
+    <string-array name="menu_4">
+        <item>@string/salads_soups1</item>
+        <item>@string/salads_soups2</item>
+        <item>@string/salads_soups3</item>
+        <item>@string/salads_soups4</item>
+        <item>@string/salads_soups5</item>
+        <item>@string/salads_soups6</item>
+        <item>@string/salads_soups7</item>
+        <item>@string/salads_soups8</item>
+    </string-array>
+
+    <!-- submenu 5 array -->
+    <string-array name="menu_5">
+        <item>@string/soups1</item>
+        <item>@string/soups2</item>
+        <item>@string/soups3</item>
+        <item>@string/soups4</item>
+        <item>@string/soups5</item>
+        <item>@string/soups6</item>
+        <item>@string/soups7</item>
+        <item>@string/soups8</item>
+    </string-array>
+
+    <!-- submenu 6 array -->
+    <string-array name="menu_6">
+        <item>@string/chk_pork_beef1</item>
+        <item>@string/chk_pork_beef2</item>
+        <item>@string/chk_pork_beef3</item>
+        <item>@string/chk_pork_beef4</item>
+        <item>@string/chk_pork_beef5</item>
+        <item>@string/chk_pork_beef6</item>
+        <item>@string/chk_pork_beef7</item>
+        <item>@string/chk_pork_beef8</item>
+        <item>@string/chk_pork_beef9</item>
+        <item>@string/chk_pork_beef10</item>
+        <item>@string/chk_pork_beef11</item>
+        <item>@string/chk_pork_beef12</item>
+        <item>@string/chk_pork_beef13</item>
+        <item>@string/chk_pork_beef14</item>
+        <item>@string/chk_pork_beef15</item>
+        <item>@string/chk_pork_beef16</item>
+        <item>@string/chk_pork_beef17</item>
+        <item>@string/chk_pork_beef18</item>
+        <item>@string/chk_pork_beef19</item>
+        <item>@string/chk_pork_beef20</item>
+        <item>@string/chk_pork_beef21</item>
+    </string-array>
+
+    <!-- submenu 7 array -->
+    <string-array name="menu_7">
+        <item>@string/shrimp_seafood1</item>
+        <item>@string/shrimp_seafood2</item>
+        <item>@string/shrimp_seafood3</item>
+        <item>@string/shrimp_seafood4</item>
+        <item>@string/shrimp_seafood5</item>
+        <item>@string/shrimp_seafood6</item>
+        <item>@string/shrimp_seafood7</item>
+        <item>@string/shrimp_seafood8</item>
+        <item>@string/shrimp_seafood9</item>
+        <item>@string/shrimp_seafood10</item>
+        <item>@string/shrimp_seafood11</item>
+        <item>@string/shrimp_seafood12</item>
+        <item>@string/shrimp_seafood13</item>
+        <item>@string/shrimp_seafood14</item>
+        <item>@string/shrimp_seafood15</item>
+        <item>@string/shrimp_seafood16</item>
+        <item>@string/shrimp_seafood17</item>
+        <item>@string/shrimp_seafood18</item>
+        <item>@string/shrimp_seafood19</item>
+        <item>@string/shrimp_seafood20</item>
+    </string-array>
+
+    <!-- submenu 8 array -->
+    <string-array name="menu_8">
+        <item>@string/curry1</item>
+        <item>@string/curry2</item>
+        <item>@string/curry3</item>
+        <item>@string/curry4</item>
+        <item>@string/curry5</item>
+    </string-array>
+
+    <!-- submenu 9 array -->
+    <string-array name="menu_9">
+        <item>@string/rice1</item>
+        <item>@string/rice2</item>
+        <item>@string/rice3</item>
+        <item>@string/rice4</item>
+        <item>@string/rice5</item>
+        <item>@string/rice6</item>
+        <item>@string/rice7</item>
+        <item>@string/rice8</item>
+        <item>@string/rice9</item>
+        <item>@string/rice10</item>
+        <item>@string/rice11</item>
+    </string-array>
+
+    <!-- submenu 10 array -->
+    <string-array name="menu_10">
+        <item>@string/beverages1</item>
+        <item>@string/beverages2</item>
+        <item>@string/beverages3</item>
+        <item>@string/beverages4</item>
+        <item>@string/beverages5</item>
+        <item>@string/beverages6</item>
+    </string-array>
+
+    <!-- Menu prices -->
+    
+    
+</resources>

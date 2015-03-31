@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="1"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton1"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"                
+                    android:text="@string/shrimp_fried_rice_dish1"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="2"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton2"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/shrimp_fried_rice_dish2"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+        <!-- display this button in 2nd column via layout_column(zero based) -->
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="3"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton3"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/shrimp_fried_rice_dish3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="4"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton4"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/shrimp_fried_rice_dish4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="5"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton5"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    
+                    android:gravity="center"
+                    android:text="@string/shrimp_fried_rice_dish5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:tag="6"
+                    android:src="@drawable/demo" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton6"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                     android:gravity="center"
+                    android:text="@string/shrimp_fried_rice_dish6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

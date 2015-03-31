@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="1" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton1"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef1"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="2" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton2"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef2"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+        <!-- display this button in 2nd column via layout_column(zero based) -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="3" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton3"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="4" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton4"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="3dp"
+                      android:gravity="center"
+                    android:text="@string/chk_pork_beef4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="5" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton5"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="6" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton6"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="7" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton7"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef7"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="8" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton8"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef8"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="9" />
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton9"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef9"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="10" />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton10"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef10"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="11" />
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton11"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef11"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="12" />
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton12"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef12"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="13" />
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton13"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef13"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="14" />
+
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton14"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef14"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="15" />
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton15"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef15"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="16" />
+
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton16"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef16"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="17" />
+
+                <TextView
+                    android:id="@+id/text17"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton17"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef17"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="18" />
+
+                <TextView
+                    android:id="@+id/text18"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton18"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef18"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="19" />
+
+                <TextView
+                    android:id="@+id/text19"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton19"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef19"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="20" />
+
+                <TextView
+                    android:id="@+id/text20"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton20"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef20"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape"
+                    android:onClick="GridImageClicked"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/demo"
+                    android:tag="21" />
+
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageButton21"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="@string/chk_pork_beef21"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FF0000FF" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="2dp" >
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
